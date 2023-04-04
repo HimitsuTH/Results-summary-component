@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box_1">
+        <h3>Your Result</h3>
+        <div id="circle">
+          <p id="my_score" class="text_white">76</p>
+          <p>of 100</p>
+        </div>
+        <h1 class="text_white result">Great</h1>
+        <p class="content">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div id="box_2">
+        <p>Summary</p>
+        <ul id="score-container"></ul>
+        <button class="btn text_white">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/HimitsuTH?tab=repositories" target="_blank">HimitsuTH</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
