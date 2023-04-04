@@ -119,6 +119,9 @@ ul > li {
 }
 
 @media (min-width: 425px) {
+  body {
+    height: 100vh;
+  }
   .container {
     width: 700px;
     grid-template-columns: repeat(2, 1fr);
